@@ -1,3 +1,5 @@
+(This is an extremely minor fork of the useful [original](https://github.com/robertzk/send.zsh) that simply adds the `--signoff` flag to git commits, as it's required by some repos.)
+
 # ZSH send plugin
 
 The following zsh plugin enables a really useful git shortcut:
