@@ -17,9 +17,9 @@ push() {
 send() {
   git add "$(git rev-parse --show-toplevel)"
   if [ $# -eq 1 ]; then
-    git commit -a -m "$1"
+    git commit -a -s -m "$1"
   else
-    git commit -a -m "I'm too lazy to write a commit message."
+    git commit -a -s -m "I'm too lazy to write a commit message."
   fi
   pull
   push
